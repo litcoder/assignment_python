@@ -34,4 +34,4 @@ def greet(이름="낯선자", 나이=20):
     else:
         인사 = "안녕"
 
-    return 인사 + f" {이름}!"
+    pass
