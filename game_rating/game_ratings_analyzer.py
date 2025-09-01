@@ -50,4 +50,7 @@ def main(path):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    try:
+        main(sys.argv[1])
+    except IndexError:
+        print(f"사용법: {sys.argv[0]} <입력 CSV 파일>")
